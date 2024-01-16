@@ -1,0 +1,670 @@
+{
+  "product": {
+    "id": "1",
+    "title": "CHAQUETA DE LA NASA MULTICOLOR CON CIERRE PARA HOMBRE",
+    "brand": "NASA",
+    "referenceID": "237474-110601-S",
+    "priceNow": "$249.000",
+    "priceBefore": "undefined",
+    "description": "Un diseño de otro planeta llegó a Movies para decirte que siempre podrás tener un estilo más auténtico e innovador. Con esta chaqueta de la NASA tus atuendos para los días fríos serán increíbles aciertos que te pondrán a levitar. Cuenta con detalles que le aportan un abrigo único y una seguridad absoluta, como su cierre frontal y capucha, que te mantendrán protegido de la lluvia. Además, con sus bolsillos, se convertirá en la prenda más práctica del clóset y gracias a sus estampados, ¡tendrás un outfit del más allá!",
+    "sizes": [
+      {
+        "size": "S",
+        "availableUnit": "6"
+      },
+      {
+        "size": "M",
+        "availableUnit": "3"
+      },
+      {
+        "size": "L",
+        "availableUnit": "5"
+      },
+      {
+        "size": "XL",
+        "availableUnit": "5"
+      }
+    ],
+    "specifications": {
+      "country": "Colombia - FABRICANTE/IMPORTADOR: Maquila Internacional de confección",
+      "sic": "811007991-8",
+      "specification": "Diseño: Chaqueta rompevientos con cierre frontal, capucha, bolsillos funcionales, aplique en punto corazón, estampados en frente, manga derecha y posterior. Silueta: Regular fit",
+      "color": "Blanco, negro y rojo"
+    },
+    "composition": "100% Poliéster",
+    "care": "- Lavar a mano o en máquina - No lavar en seco - No dejar en remojo - No retorcer ni exprimir - Usar agua fría - Usar jabón suave - No usar blanqueador - No blanquear - No usar secadora - No planchar - Secado en tendedero a la sombra",
+    "explore": "¡Colecciones irrepetibles! Los diseños más galácticos llegaron para darte los mejores estilos del día a día con prendas que se convertirán en tus favoritas de todo el guardarropa. Continúa explorando en Movies y encuentra más chaquetas icónicas como esta.",
+    "images": [
+      {
+        "idImage": 1,
+        "urlImage": "https://moviesshopco.vtexassets.com/arquivos/ids/175525-1600-1600?v=638343813380430000&width=1600&height=1600&aspect=true"
+      },
+      {
+        "idImage": 2,
+        "urlImage": "https://moviesshopco.vtexassets.com/arquivos/ids/175526-1600-1600?v=638343813692600000&width=1600&height=1600&aspect=true"
+      },
+      {
+        "idImage": 3,
+        "urlImage": "https://moviesshopco.vtexassets.com/arquivos/ids/175530-1600-1600?v=638343814525630000&width=1600&height=1600&aspect=true"
+      },
+      {
+        "idImage": 4,
+        "urlImage": "https://moviesshopco.vtexassets.com/arquivos/ids/175614-1600-1600?v=638349695150300000&width=1600&height=1600&aspect=true"
+      }
+    ]
+  },
+  "products": {
+    "interest": [
+      {
+        "id": 1,
+        "title": "BUZO DE LA NASA BLANCO CERRADO",
+        "brand": "NASA",
+        "priceNow": "$174.990",
+        "priceBefore": "undefined",
+        "sizes": [
+          {
+            "size": "S"
+          },
+          {
+            "size": "M"
+          },
+          {
+            "size": "L"
+          },
+          {
+            "size": "XL"
+          }
+        ],
+        "images": [
+          {
+            "idImage": 1,
+            "urlImage": "https://moviesshopco.vteximg.com.br/arquivos/ids/175531/237485-buzo-hombre-nasa-buzo-cerrado-1.jpg?v=638343817618330000"
+          },
+          {
+            "idImage": 2,
+            "urlImage": "https://moviesshopco.vteximg.com.br/arquivos/ids/175532/237485-buzo-hombre-nasa-buzo-cerrado-3.jpg?v=638343817920200000"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "title": "BUZO DE HOMBRE, CERRADO CON CAPUCHA DE DEADPOOL",
+        "brand": "MARVEL",
+        "priceNow": "$224.990",
+        "priceBefore": "undefined",
+        "sizes": [
+          {
+            "size": "S"
+          },
+          {
+            "size": "M"
+          },
+          {
+            "size": "L"
+          },
+          {
+            "size": "XL"
+          }
+        ],
+        "images": [
+          {
+            "idImage": 1,
+            "urlImage": "https://moviesshopco.vteximg.com.br/arquivos/ids/173533/236969-abrigos-y-chaquetas-hombre-deadpool-buzo-cerrado-1.jpg?v=638155233017800000"
+          },
+          {
+            "idImage": 2,
+            "urlImage": "https://moviesshopco.vteximg.com.br/arquivos/ids/173534/236969-abrigos-y-chaquetas-hombre-deadpool-buzo-cerrado-4.jpg?v=638155233672700000"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "title": "BUZO GÉNERO NEUTRO NEGRO CON CAPUCHA DE KISS",
+        "brand": "ROCKBANDS",
+        "priceNow": "$202.491",
+        "priceBefore": "$224.990",
+        "sizes": [
+          {
+            "size": "XS"
+          },
+          {
+            "size": "S"
+          },
+          {
+            "size": "M"
+          },
+          {
+            "size": "L"
+          },
+          {
+            "size": "XL"
+          }
+        ],
+        "images": [
+          {
+            "idImage": 1,
+            "urlImage": "https://moviesshopco.vteximg.com.br/arquivos/ids/175464/237409-buzo-adulto-unisex-kiss-buzo-cerrado-1.jpg?v=638336724262630000"
+          },
+          {
+            "idImage": 2,
+            "urlImage": "https://moviesshopco.vteximg.com.br/arquivos/ids/175465/237409-buzo-adulto-unisex-kiss-buzo-cerrado-3.jpg?v=638336724778500000"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "title": "CHAQUETA DE NARUTO CON CIERRE Y CHOMPA VERDE/MARFIL PARA HOMBRE",
+        "brand": "NARUTO",
+        "priceNow": "$349.990",
+        "priceBefore": "",
+        "sizes": [
+          {
+            "size": "S"
+          },
+          {
+            "size": "M"
+          },
+          {
+            "size": "L"
+          },
+          {
+            "size": "XL"
+          }
+        ],
+        "images": [
+          {
+            "idImage": 1,
+            "urlImage": "https://moviesshopco.vteximg.com.br/arquivos/ids/174465/237135-abrigos-y-chaquetas-hombre-naruto-shippuden-buzo-abierto-1.jpg?v=638253082416100000"
+          },
+          {
+            "idImage": 2,
+            "urlImage": "https://moviesshopco.vteximg.com.br/arquivos/ids/174466/237135-abrigos-y-chaquetas-hombre-naruto-shippuden-buzo-abierto-3.jpg?v=638253082646370000"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "title": "BUZO DE HOMBRE, ABIERTO CON CHOMPA GRIS DE ANIME",
+        "brand": "ANIME",
+        "priceNow": "$109.995",
+        "priceBefore": "$219.990",
+        "sizes": [
+          {
+            "size": "XL"
+          }
+        ],
+        "images": [
+          {
+            "idImage": 1,
+            "urlImage": "https://moviesshopco.vteximg.com.br/arquivos/ids/175879/93121521-buzo-hombre-anime-buzo-abierto-1.jpg?v=638373815712900000"
+          },
+          {
+            "idImage": 2,
+            "urlImage": "https://moviesshopco.vteximg.com.br/arquivos/ids/175880/93121521-buzo-hombre-anime-buzo-abierto-3.jpg?v=638373815849900000"
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "title": "BUZO DE RICK AND MORTY CUELLO REDONDO NEGRO PARA HOMBRE",
+        "brand": "WARNER BROS",
+        "priceNow": "$169.990",
+        "priceBefore": "undefined",
+        "sizes": [
+          {
+            "size": "S"
+          },
+          {
+            "size": "M"
+          },
+          {
+            "size": "L"
+          },
+          {
+            "size": "XL"
+          }
+        ],
+        "images": [
+          {
+            "idImage": 1,
+            "urlImage": "https://moviesshopco.vteximg.com.br/arquivos/ids/173970/237117-abrigos-y-chaquetas-hombre-rick---morty--animated-series-buzo-cerrado-1a.jpg?v=638209674168500000"
+          },
+          {
+            "idImage": 2,
+            "urlImage": "https://moviesshopco.vteximg.com.br/arquivos/ids/173971/237117-abrigos-y-chaquetas-hombre-rick---morty--animated-series-buzo-cerrado-3.jpg?v=638209674330600000"
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "title": "BUZO PARA HOMBRE, CON CIERRE Y CHOMPA ROSADO DE RICK AND MORTY",
+        "brand": "WARNER BROS",
+        "priceNow": "$199.990",
+        "priceBefore": "undefined",
+        "sizes": [
+          {
+            "size": "S"
+          },
+          {
+            "size": "M"
+          },
+          {
+            "size": "L"
+          },
+          {
+            "size": "XL"
+          }
+        ],
+        "images": [
+          {
+            "idImage": 1,
+            "urlImage": "https://moviesshopco.vteximg.com.br/arquivos/ids/175867/236708-buzo-hombre-rick---morty--animated-series-buzo-abierto-1.jpg?v=638373813154530000"
+          },
+          {
+            "idImage": 2,
+            "urlImage": "https://moviesshopco.vteximg.com.br/arquivos/ids/175868/236708-buzo-hombre-rick---morty--animated-series-buzo-abierto-3.jpg?v=638373813260370000"
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "title": "BUZO DE HOMBRE, VERDE DE NARUTO",
+        "brand": "NARUTO",
+        "priceNow": "$94.995",
+        "priceBefore": "$189.990",
+        "sizes": [
+          {
+            "size": "S"
+          },
+          {
+            "size": "M"
+          },
+          {
+            "size": "L"
+          },
+          {
+            "size": "XL"
+          }
+        ],
+        "images": [
+          {
+            "idImage": 1,
+            "urlImage": "https://moviesshopco.vteximg.com.br/arquivos/ids/175137/233949-abrigos-y-chaquetas-hombre-naruto-shippuden-buzo-cerrado-1.jpg?v=638308445130100000"
+          },
+          {
+            "idImage": 2,
+            "urlImage": "https://moviesshopco.vteximg.com.br/arquivos/ids/175138/233949-abrigos-y-chaquetas-hombre-naruto-shippuden-buzo-cerrado-3.jpg?v=638308445382000000"
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "title": "BUZO DE LOS LOONEY TUNES GRIS CERRADO CON CHOMPA PARA HOMBRE",
+        "brand": "WARNER BROS",
+        "priceNow": "$199.990",
+        "priceBefore": "undefined",
+        "sizes": [
+          {
+            "size": "S"
+          },
+          {
+            "size": "L"
+          },
+          {
+            "size": "XL"
+          }
+        ],
+        "images": [
+          {
+            "idImage": 1,
+            "urlImage": "https://moviesshopco.vteximg.com.br/arquivos/ids/174228/237162-abrigos-y-chaquetas-hombre-looney-tunes-core-buzo-cerrado-1a.jpg?v=638228675036970000"
+          },
+          {
+            "idImage": 2,
+            "urlImage": "https://moviesshopco.vteximg.com.br/arquivos/ids/174229/237162-abrigos-y-chaquetas-hombre-looney-tunes-core-buzo-cerrado-3.jpg?v=638228675479430000"
+          }
+        ]
+      },
+      {
+        "id": 10,
+        "title": "BUZO MOVIES CERRADO VERDE MILITAR PARA HOMBRE",
+        "brand": "MOVIES",
+        "priceNow": "$118.993",
+        "priceBefore": "$169.990",
+        "sizes": [
+          {
+            "size": "S"
+          },
+          {
+            "size": "L"
+          },
+          {
+            "size": "XL"
+          }
+        ],
+        "images": [
+          {
+            "idImage": 1,
+            "urlImage": "https://moviesshopco.vteximg.com.br/arquivos/ids/172358/93120060-buzo-hombre--movies-cerrado-1.jpg?v=637998136725770000"
+          },
+          {
+            "idImage": 2,
+            "urlImage": "https://moviesshopco.vteximg.com.br/arquivos/ids/172359/93120060-buzo-hombre--movies-cerrado-3.jpg?v=637998136818770000"
+          }
+        ]
+      }
+    ],
+    "forYou": [
+      {
+        "id": 1,
+        "title": "CAMISETA DE LA NASA BLANCA MANGA CORTA PARA HOMBRE",
+        "brand": "NASA",
+        "priceNow": "$94.990",
+        "priceBefore": "undefined",
+        "sizes": [
+          {
+            "size": "S"
+          },
+          {
+            "size": "M"
+          },
+          {
+            "size": "L"
+          },
+          {
+            "size": "XL"
+          }
+        ],
+        "images": [
+          {
+            "idImage": "",
+            "urlImage": "https://moviesshopco.vtexassets.com/arquivos/ids/175540-1600-1600?v=638343823984200000&width=1600&height=1600&aspect=true"
+          },
+          {
+            "idImage": "",
+            "urlImage": "https://moviesshopco.vtexassets.com/arquivos/ids/175541-1600-1600?v=638343824134270000&width=1600&height=1600&aspect=true"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "title": "CAMISETA GÉNERO NEUTRO GRIS CUELLO REDONDO DE AEROSMITH",
+        "brand": "MOVIES",
+        "priceNow": "$89.990",
+        "priceBefore": "undefined",
+        "sizes": [
+          {
+            "size": "XS"
+          },
+          {
+            "size": "S"
+          },
+          {
+            "size": "M"
+          },
+          {
+            "size": "L"
+          },
+          {
+            "size": "XL"
+          }
+        ],
+        "images": [
+          {
+            "idImage": "",
+            "urlImage": "https://moviesshopco.vtexassets.com/arquivos/ids/175345-1600-1600?v=638325693451700000&width=1600&height=1600&aspect=true"
+          },
+          {
+            "idImage": "",
+            "urlImage": "https://moviesshopco.vtexassets.com/arquivos/ids/175346-1600-1600?v=638325693627970000&width=1600&height=1600&aspect=true"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "title": "CAMISA GÉNERO NEUTRO DE LOONEY TUNES MULTICOLOR MANGA CORTA",
+        "brand": "WARNER BROS",
+        "priceNow": "$160.993",
+        "priceBefore": "$229.990",
+        "sizes": [
+          {
+            "size": "XS"
+          },
+          {
+            "size": "S"
+          },
+          {
+            "size": "M"
+          },
+          {
+            "size": "L"
+          },
+          {
+            "size": "XL"
+          }
+        ],
+        "images": [
+          {
+            "idImage": 1,
+            "urlImage": "https://moviesshopco.vtexassets.com/arquivos/ids/175228-1600-1600?v=638315149861130000&width=1600&height=1600&aspect=true"
+          },
+          {
+            "idImage": 2,
+            "urlImage": "https://moviesshopco.vtexassets.com/arquivos/ids/175229-1600-1600?v=638315150683470000&width=1600&height=1600&aspect=true"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "title": "PIJAMA THE SIMPSONS, NEGRA/AMARILLA MANGA CORTA PARA HOMBRE",
+        "brand": "FOX",
+        "priceNow": "$139.990",
+        "priceBefore": "undefined",
+        "sizes": [
+          {
+            "size": "S"
+          },
+          {
+            "size": "L"
+          },
+          {
+            "size": "XL"
+          }
+        ],
+        "images": [
+          {
+            "idImage": 1,
+            "urlImage": "https://moviesshopco.vtexassets.com/arquivos/ids/175845-1600-1600?v=638373254737330000&width=1600&height=1600&aspect=true"
+          },
+          {
+            "idImage": 2,
+            "urlImage": "https://moviesshopco.vtexassets.com/arquivos/ids/175846-1600-1600?v=638373254859330000&width=1600&height=1600&aspect=true"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "title": "PIJAMA DE DRAGON BALL Z CON PANTALÓN CORTO BLANCO Y GRIS PARA HOMBRE",
+        "brand": "DRAGON BALL",
+        "priceNow": "$83.994",
+        "priceBefore": "$139.990",
+        "sizes": [
+          {
+            "size": "M"
+          },
+          {
+            "size": "XL"
+          }
+        ],
+        "images": [
+          {
+            "idImage": 1,
+            "urlImage": "https://moviesshopco.vtexassets.com/arquivos/ids/174874-1600-1600?v=638302338605330000&width=1600&height=1600&aspect=true"
+          },
+          {
+            "idImage": 2,
+            "urlImage": "https://moviesshopco.vtexassets.com/arquivos/ids/172819-1600-1600?v=638042325187100000&width=1600&height=1600&aspect=true"
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "title": "CAMISA GÉNERO NEUTRO DE LOS SIMPSON ROSADA MANGA CORTA",
+        "brand": "FOX",
+        "priceNow": "$160.993",
+        "priceBefore": "$229.990",
+        "sizes": [
+          {
+            "size": "XS"
+          },
+          {
+            "size": "S"
+          },
+          {
+            "size": "M"
+          },
+          {
+            "size": "L"
+          },
+          {
+            "size": "XL"
+          }
+        ],
+        "images": [
+          {
+            "idImage": 1,
+            "urlImage": "https://moviesshopco.vtexassets.com/arquivos/ids/175241-1600-1600?v=638315248171370000&width=1600&height=1600&aspect=true"
+          },
+          {
+            "idImage": 2,
+            "urlImage": "https://moviesshopco.vtexassets.com/arquivos/ids/175243-1600-1600?v=638315248892500000&width=1600&height=1600&aspect=true"
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "title": "CAMISETA DE MARIO BROS NEGRA MANGA CORTA PARA HOMBRE",
+        "brand": "NINTENDO",
+        "priceNow": "$94.990",
+        "priceBefore": "undefined",
+        "sizes": [
+          {
+            "size": "S"
+          },
+          {
+            "size": "M"
+          },
+          {
+            "size": "L"
+          },
+          {
+            "size": "XL"
+          }
+        ],
+        "images": [
+          {
+            "idImage": 1,
+            "urlImage": "https://moviesshopco.vtexassets.com/arquivos/ids/175646-1600-1600?v=638358474481600000&width=1600&height=1600&aspect=true"
+          },
+          {
+            "idImage": 2,
+            "urlImage": "https://moviesshopco.vtexassets.com/arquivos/ids/175647-1600-1600?v=638358475084330000&width=1600&height=1600&aspect=true"
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "title": "CAMISETA DE THE SIMPSONS MANGA CORTA NEGRA PARA HOMBRE",
+        "brand": "FOX",
+        "priceNow": "$80.991",
+        "priceBefore": "$89.990",
+        "sizes": [
+          {
+            "size": "S"
+          },
+          {
+            "size": "M"
+          },
+          {
+            "size": "L"
+          },
+          {
+            "size": "XL"
+          }
+        ],
+        "images": [
+          {
+            "idImage": 1,
+            "urlImage": "https://moviesshopco.vtexassets.com/arquivos/ids/174799-1600-1600?v=638295302702330000&width=1600&height=1600&aspect=true"
+          },
+          {
+            "idImage": 2,
+            "urlImage": "https://moviesshopco.vtexassets.com/arquivos/ids/174800-1600-1600?v=638295303058470000&width=1600&height=1600&aspect=true"
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "title": "CAMISETA DE SUPER MARIO GRIS JASPE MANGA CORTA PARA HOMBRE",
+        "brand": "NINTENDO",
+        "priceNow": "$89.990",
+        "priceBefore": "undefined",
+        "sizes": [
+          {
+            "size": "S"
+          },
+          {
+            "size": "M"
+          },
+          {
+            "size": "L"
+          },
+          {
+            "size": "XL"
+          }
+        ],
+        "images": [
+          {
+            "idImage": 1,
+            "urlImage": "https://moviesshopco.vtexassets.com/arquivos/ids/175642-1600-1600?v=638358469224470000&width=1600&height=1600&aspect=true"
+          },
+          {
+            "idImage": 2,
+            "urlImage": "https://moviesshopco.vtexassets.com/arquivos/ids/175643-1600-1600?v=638358469542600000&width=1600&height=1600&aspect=true"
+          }
+        ]
+      },
+      {
+        "id": 10,
+        "title": "JOGGER DE MOVIES, NEGRO PARA HOMBRE",
+        "brand": "MOVIES",
+        "priceNow": "$169.990",
+        "priceBefore": "undefined",
+        "sizes": [
+          {
+            "size": "30"
+          },
+          {
+            "size": "32"
+          },
+          {
+            "size": "34"
+          },
+          {
+            "size": "36"
+          }
+        ],
+        "images": [
+          {
+            "idImage": 1,
+            "urlImage": "https://moviesshopco.vtexassets.com/arquivos/ids/174861-1600-1600?v=638302332141700000&width=1600&height=1600&aspect=true"
+          },
+          {
+            "idImage": 2,
+            "urlImage": "https://moviesshopco.vtexassets.com/arquivos/ids/174862-1600-1600?v=638302332385730000&width=1600&height=1600&aspect=true"
+          }
+        ]
+      }
+    ]
+  }
+}
