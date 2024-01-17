@@ -1,0 +1,206 @@
+$navbar-bg: #131e29;
+
+.navbar {
+  background: $navbar-bg;
+  color: #fff;
+  width: 100dvw;
+  height: 9dvh;
+  display: grid;
+  place-content: center;
+
+  & > ul {
+    list-style: none;
+    display: inherit;
+    grid-template-areas: 'nStart nEnd';
+    width: inherit;
+    height: inherit;
+    justify-content: space-around;
+
+    & > .navbarStart {
+      grid-area: nStart;
+      justify-content: space-between;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+
+      & > section {
+        display: flex;
+        gap: 8px;
+
+        & > button {
+          background: transparent;
+          outline: none;
+          border: none;
+        }
+      }
+    }
+
+    & .navbarCenter {
+      grid-area: nCenter;
+      // background: red;
+      display: none;
+    }
+
+    & .navbarEnd {
+      grid-area: nEnd;
+    }
+
+    & > section {
+      display: flex;
+      align-items: center;
+    }
+
+    & .navbarEnd {
+      display: flex;
+      gap: 8px;
+      justify-content: flex-end;
+
+      & li {
+        display: none;
+      }
+
+      & > li:nth-child(2),
+      & > li:nth-child(5) {
+        display: block;
+      }
+    }
+  }
+}
+
+.navbarCenter {
+  display: none;
+}
+
+
+/* media queries */
+
+@media screen and (min-width: 910px) {
+  .navbar {
+    & > ul {
+      grid-template-areas: 'nStart nCenter nEnd';
+      grid-template-columns: auto 1fr auto;
+      text-transform: uppercase;
+      font-size: 11px;
+      line-height: 15px;
+      letter-spacing: 0.4em;
+      font-weight: 500;
+
+      & li {
+        cursor: pointer;
+      }
+
+      & > .navbarStart {
+        grid-template-columns: auto;
+        padding-left: 4rem;
+      }
+
+      & > .navbarStart > section:first-child {
+        display: none;
+      }
+
+      & > .navbarCenter {
+        display: flex;
+        justify-content: space-evenly;
+
+        & > .menuHover {
+          position: relative;
+          height: inherit;
+
+          span {
+            letter-spacing: 0.4em;
+            display: flex;
+            flex-direction: column;
+            font-size: 12px;
+            text-transform: uppercase;
+          }
+
+          &:has(> span) {
+            text-align: center;
+            font-weight: normal;
+            font-size: 13px;
+            text-transform: lowercase;
+            letter-spacing: 0;
+          }
+
+          & > .submenu {
+            display: none;
+
+            & div {
+              display: flex;
+              gap: 8px;
+              margin-bottom: 1rem;
+
+              & h1 {
+                font-size: 28px;
+                color: red;
+              }
+
+              & p {
+                font-size: 11px;
+              }
+            }
+
+            & li {
+              width: 20%;
+              padding: 0;
+              margin-top: 0.5rem;
+              text-align: start;
+              text-transform: none;
+              font-weight: 300;
+              font-size: 13px;
+              letter-spacing: .1rem;
+              overflow: hidden;
+              position: relative;
+
+              &::before {
+                content: '';
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                width: 0;
+                height: 1.5px;
+                background-color: red;
+                transition: width 0.8s ease;
+              }
+
+              &:hover::before {
+                width: 100%;
+              }
+            }
+          }
+
+          &:hover {
+            & > .submenu {
+              background: #fff;
+              color: #000000;
+              width: 50rem;
+              height: 20rem;
+              position: absolute;
+              display: block;
+              top: 2.5rem;
+              list-style: none;
+              padding: 2rem;
+            }
+          }
+
+          &:hover::before {
+            content: '...';
+            color: red;
+            position: absolute;
+            top: 90%;
+            left: 50%;
+            transform: translate(-50%, -90%);
+            font-size: 54px;
+          }
+        }
+      }
+
+      & > .navbarEnd {
+        padding-right: 4rem;
+      }
+
+      & > .navbarEnd li {
+        display: grid;
+      }
+    }
+  }
+}

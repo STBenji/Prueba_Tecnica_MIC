@@ -1,10 +1,12 @@
-import './App.css'
+import './App.scss'
+import Navbar from './Components/Navbar/Navbar'
 
 function App() {
-  return (<>
-  <h1>Clone movies page</h1>
-  <h1>👋</h1>
-  </>)
+  return (
+    <>
+      <Navbar />
+    </>
+  )
 }
 
 export default App

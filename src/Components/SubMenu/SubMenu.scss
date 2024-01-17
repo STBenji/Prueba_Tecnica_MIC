@@ -1,0 +1,77 @@
+.container {
+  width: 15%;
+  max-width: 400px;
+  min-width: 310px;
+  position: fixed;
+  // left: -400px;
+  padding: 1rem;
+  background: #fff;
+  color: #000;
+  overflow: hidden;
+  transition: left 1s ease;
+
+  &.expanded {
+    // left: 0;
+    width: 85%;
+  }
+
+  &.closed {
+    // left: 300px;
+    width: 15%;
+  }
+
+  & .header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+
+    & h1 {
+      font-size: 2.4rem;
+      font-weight: 300;
+    }
+
+    & button {
+      padding: 0 1rem;
+      outline: none;
+      border: none;
+      background: transparent;
+      font-size: 1.5rem;
+    }
+  }
+
+  & .sectionMenu {
+    & ul {
+      list-style: none;
+      font-size: 18px;
+      text-transform: uppercase;
+      margin-bottom: 2rem;
+
+      & li {
+        color: #888;
+        margin-top: 2.5rem;
+      }
+
+      & li:nth-child(3),
+      & li:nth-child(4),
+      & li:nth-child(5) {
+        font-weight: 800;
+        color: #000;
+      }
+    }
+  }
+
+  & .footer {
+    & ul {
+      list-style: none;
+      line-height: 15px;
+      color: #000;
+      text-transform: uppercase;
+
+      & li {
+        margin-top: 2.5rem;
+        display: flex;
+        gap: 1.6rem;
+      }
+    }
+  }
+}
