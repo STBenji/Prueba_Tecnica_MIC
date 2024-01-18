@@ -22,6 +22,10 @@ export interface IProduct {
       explore: string
       images: []
     }
+    products: {
+      interest: []
+      forYou: []
+    }
   }
 }
 
@@ -77,4 +81,22 @@ export interface IImageArray {
 export interface IMenu {
   onClose: () => void
   className?: string
+}
+
+export interface Size {
+  size: string
+}
+
+export interface Item {
+  id: number
+  brand: string
+  title: string
+  priceBefore: number
+  priceNow: number
+  sizes: Size[]
+  images: []
+}
+
+export interface CardProductProps {
+  data: Item[]
 }

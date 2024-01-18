@@ -1,10 +1,20 @@
 .productContainer {
-  padding: 1rem;
+  padding: 1rem 0;
 
   & > .links {
     font-size: 13px;
-    padding: 1rem 0;
+    padding: 1rem;
     color: #555;
+  }
+
+  & > .interest {
+    font-size: 22px;
+  }
+
+  & > .slider {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
   }
 }
 

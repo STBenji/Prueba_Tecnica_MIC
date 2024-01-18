@@ -1,10 +1,9 @@
 import { useState } from 'react'
-import './Slider.scss'
+import './Slider.Gallery.scss'
 import { IconArrowLeft, IconArrowRigth } from '../Icons/Icons'
 import { IImageArray, IImage } from '../../Interfaces/Interfaces'
-import SendInformation from '../SendInformation/SendInformation'
 
-export default function Slider({ imageArray }: IImageArray) {
+export default function SliderGallery({ imageArray }: IImageArray) {
   const [currentIndex, setCurrentIndex] = useState(0)
 
   const handleNext = () => {
@@ -19,14 +18,14 @@ export default function Slider({ imageArray }: IImageArray) {
   }
 
   return (
-    <main className="imgContainer">
+    <main className="imgContainerGallery">
       <div>
         <section>
           <button onClick={handlePrev} disabled={currentIndex === 0}>
             <IconArrowLeft />
           </button>
         </section>
-        <section className="images">
+        <section className="imagesGallery">
           {imageArray.map((item: IImage, index) => (
             <div key={item.idImage}>{currentIndex === index && <img src={item.urlImage} alt="" />}</div>
           ))}
@@ -37,10 +36,6 @@ export default function Slider({ imageArray }: IImageArray) {
           </button>
         </section>
       </div>
-
-      <section className="sendInfo">
-        <SendInformation />
-      </section>
     </main>
   )
 }
