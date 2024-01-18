@@ -1,0 +1,16 @@
+.productContainer {
+  padding: 1rem;
+
+  & > .links {
+    font-size: 13px;
+    padding: 1rem 0;
+    color: #555;
+  }
+}
+
+@media screen and (min-width: 910px) {
+  .headerProduct {
+    display: grid;
+    grid-template-columns: 20% 45% 25%;
+  }
+}

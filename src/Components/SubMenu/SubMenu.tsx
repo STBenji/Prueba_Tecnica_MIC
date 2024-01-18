@@ -1,9 +1,5 @@
 import './SubMenu.scss'
-
-interface IMenu {
-  onClose: () => void
-  className?: string
-}
+import { IMenu } from '../../Interfaces/Interfaces'
 
 export default function SubMenu({ onClose, className }: IMenu) {
   const handleClose = () => {

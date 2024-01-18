@@ -5,8 +5,7 @@
     "brand": "NASA",
     "referenceID": "237474-110601-S",
     "priceNow": "$249.000",
-    "priceBefore": "undefined",
-    "description": "Un diseño de otro planeta llegó a Movies para decirte que siempre podrás tener un estilo más auténtico e innovador. Con esta chaqueta de la NASA tus atuendos para los días fríos serán increíbles aciertos que te pondrán a levitar. Cuenta con detalles que le aportan un abrigo único y una seguridad absoluta, como su cierre frontal y capucha, que te mantendrán protegido de la lluvia. Además, con sus bolsillos, se convertirá en la prenda más práctica del clóset y gracias a sus estampados, ¡tendrás un outfit del más allá!",
+    "priceBefore": "",
     "sizes": [
       {
         "size": "S",
@@ -25,6 +24,7 @@
         "availableUnit": "5"
       }
     ],
+    "description": "Un diseño de otro planeta llegó a Movies para decirte que siempre podrás tener un estilo más auténtico e innovador. Con esta chaqueta de la NASA tus atuendos para los días fríos serán increíbles aciertos que te pondrán a levitar. Cuenta con detalles que le aportan un abrigo único y una seguridad absoluta, como su cierre frontal y capucha, que te mantendrán protegido de la lluvia. Además, con sus bolsillos, se convertirá en la prenda más práctica del clóset y gracias a sus estampados, ¡tendrás un outfit del más allá!",
     "specifications": {
       "country": "Colombia - FABRICANTE/IMPORTADOR: Maquila Internacional de confección",
       "sic": "811007991-8",
@@ -45,10 +45,18 @@
       },
       {
         "idImage": 3,
-        "urlImage": "https://moviesshopco.vtexassets.com/arquivos/ids/175530-1600-1600?v=638343814525630000&width=1600&height=1600&aspect=true"
+        "urlImage": "https://moviesshopco.vtexassets.com/arquivos/ids/175527-1600-1600?v=638343813918430000&width=1600&height=1600&aspect=true"
       },
       {
         "idImage": 4,
+        "urlImage": "https://moviesshopco.vtexassets.com/arquivos/ids/175528-1600-1600?v=638343814091100000&width=1600&height=1600&aspect=true"
+      },
+      {
+        "idImage": 5,
+        "urlImage": "https://moviesshopco.vtexassets.com/arquivos/ids/175530-1600-1600?v=638343814525630000&width=1600&height=1600&aspect=true"
+      },
+      {
+        "idImage": 6,
         "urlImage": "https://moviesshopco.vtexassets.com/arquivos/ids/175614-1600-1600?v=638349695150300000&width=1600&height=1600&aspect=true"
       }
     ]
@@ -60,7 +68,7 @@
         "title": "BUZO DE LA NASA BLANCO CERRADO",
         "brand": "NASA",
         "priceNow": "$174.990",
-        "priceBefore": "undefined",
+        "priceBefore": "",
         "sizes": [
           {
             "size": "S"
@@ -91,7 +99,7 @@
         "title": "BUZO DE HOMBRE, CERRADO CON CAPUCHA DE DEADPOOL",
         "brand": "MARVEL",
         "priceNow": "$224.990",
-        "priceBefore": "undefined",
+        "priceBefore": "",
         "sizes": [
           {
             "size": "S"
@@ -209,7 +217,7 @@
         "title": "BUZO DE RICK AND MORTY CUELLO REDONDO NEGRO PARA HOMBRE",
         "brand": "WARNER BROS",
         "priceNow": "$169.990",
-        "priceBefore": "undefined",
+        "priceBefore": "",
         "sizes": [
           {
             "size": "S"
@@ -240,7 +248,7 @@
         "title": "BUZO PARA HOMBRE, CON CIERRE Y CHOMPA ROSADO DE RICK AND MORTY",
         "brand": "WARNER BROS",
         "priceNow": "$199.990",
-        "priceBefore": "undefined",
+        "priceBefore": "",
         "sizes": [
           {
             "size": "S"
@@ -302,7 +310,7 @@
         "title": "BUZO DE LOS LOONEY TUNES GRIS CERRADO CON CHOMPA PARA HOMBRE",
         "brand": "WARNER BROS",
         "priceNow": "$199.990",
-        "priceBefore": "undefined",
+        "priceBefore": "",
         "sizes": [
           {
             "size": "S"
@@ -360,7 +368,7 @@
         "title": "CAMISETA DE LA NASA BLANCA MANGA CORTA PARA HOMBRE",
         "brand": "NASA",
         "priceNow": "$94.990",
-        "priceBefore": "undefined",
+        "priceBefore": "",
         "sizes": [
           {
             "size": "S"
@@ -391,7 +399,7 @@
         "title": "CAMISETA GÉNERO NEUTRO GRIS CUELLO REDONDO DE AEROSMITH",
         "brand": "MOVIES",
         "priceNow": "$89.990",
-        "priceBefore": "undefined",
+        "priceBefore": "",
         "sizes": [
           {
             "size": "XS"
@@ -459,7 +467,7 @@
         "title": "PIJAMA THE SIMPSONS, NEGRA/AMARILLA MANGA CORTA PARA HOMBRE",
         "brand": "FOX",
         "priceNow": "$139.990",
-        "priceBefore": "undefined",
+        "priceBefore": "",
         "sizes": [
           {
             "size": "S"
@@ -546,7 +554,7 @@
         "title": "CAMISETA DE MARIO BROS NEGRA MANGA CORTA PARA HOMBRE",
         "brand": "NINTENDO",
         "priceNow": "$94.990",
-        "priceBefore": "undefined",
+        "priceBefore": "",
         "sizes": [
           {
             "size": "S"
@@ -608,7 +616,7 @@
         "title": "CAMISETA DE SUPER MARIO GRIS JASPE MANGA CORTA PARA HOMBRE",
         "brand": "NINTENDO",
         "priceNow": "$89.990",
-        "priceBefore": "undefined",
+        "priceBefore": "",
         "sizes": [
           {
             "size": "S"
@@ -639,7 +647,7 @@
         "title": "JOGGER DE MOVIES, NEGRO PARA HOMBRE",
         "brand": "MOVIES",
         "priceNow": "$169.990",
-        "priceBefore": "undefined",
+        "priceBefore": "",
         "sizes": [
           {
             "size": "30"

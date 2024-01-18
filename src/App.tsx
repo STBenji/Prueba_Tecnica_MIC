@@ -1,10 +1,10 @@
 import './App.scss'
-import Navbar from './Components/Navbar/Navbar'
+import ProductPage from './Pages/Product.page'
 
 function App() {
   return (
     <>
-      <Navbar />
+      <ProductPage />
     </>
   )
 }

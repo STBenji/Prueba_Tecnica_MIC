@@ -1,0 +1,48 @@
+.mainDataProduct {
+  & > section {
+    & > header > div {
+      display: flex;
+      justify-content: space-between;
+      padding: 1rem 0;
+      font-weight: 300;
+      font-size: 17px;
+      cursor: pointer;
+    }
+
+    & > div {
+      padding: 1rem 0;
+
+      & > strong {
+        color: #555;
+        text-decoration: underline;
+      }
+
+      & > p {
+        font-size: 15px;
+        color: #888;
+      }
+    }
+  }
+
+  & > article {
+    display: flex;
+    gap: 1rem;
+    align-items: flex-start;
+    padding: 1rem 0;
+
+    & > hr {
+      margin-top: 0.8rem;
+    }
+
+    & > img {
+      margin-top: 1rem;
+      background: red;
+      padding: 0.3rem;
+      border-radius: 4px;
+    }
+
+    & > p {
+      font-size: 15px;
+    }
+  }
+}

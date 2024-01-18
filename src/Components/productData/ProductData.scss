@@ -1,0 +1,137 @@
+.containerDataProduct {
+  padding: 1rem;
+
+  & .headerDataProduct {
+    & > span {
+      font-size: 16px;
+      font-weight: 600;
+    }
+
+    & > h1 {
+      padding: 0 1rem;
+      margin-top: 1rem;
+      font-size: 22px;
+      font-weight: normal;
+    }
+
+    & > div {
+      display: flex;
+      align-items: center;
+      gap: 2rem;
+      margin-top: 1rem;
+
+      & > p:nth-child(2) {
+        color: #666;
+        font-size: 12px;
+      }
+    }
+
+    & .availableUnit {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      align-items: flex-start;
+
+      & > h1 {
+        font-size: 18px;
+        color: red;
+        font-weight: 300;
+
+        & > span {
+          font-weight: 600;
+        }
+      }
+
+      & > section {
+        display: flex;
+        gap: 2rem;
+
+        & > button {
+          padding: 0.5rem;
+          border-radius: 0;
+          border: none;
+          outline: none;
+          background: transparent;
+        }
+
+        & > button.red {
+          background-color: #131e29;
+          color: white;
+        }
+      }
+    }
+
+    & > .addBag {
+      margin-top: 4rem;
+      display: flex;
+
+      & > div:nth-child(1) {
+        display: flex;
+        align-items: center;
+        border-bottom: 1px solid #131e29;
+
+        & h1 {
+          text-align: center;
+          width: 50px;
+        }
+
+        & > button {
+          height: 40px;
+          width: 40px;
+          outline: none;
+          border: none;
+          background: transparent;
+        }
+      }
+
+      & > div:nth-child(2) {
+        & > button {
+          background-color: #131e29;
+          color: #fff;
+          width: 200px;
+          height: 40px;
+          outline: none;
+          border: none;
+        }
+      }
+    }
+  }
+
+  & > .asideDataProduct {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-top: 3rem;
+
+    & > h1 {
+      font-size: 18px;
+      color: #444;
+    }
+
+    & > select {
+      padding: 0.5rem;
+      border-radius: none;
+      border: 1px solid #888;
+    }
+
+    & > button {
+      padding: 0.5rem;
+      border: none;
+      outline: none;
+      background: #afb3b7;
+      color: #000;
+      font-weight: bold;
+      text-transform: uppercase;
+      font-size: 13px;
+      letter-spacing: 0.2px;
+    }
+
+    & > section {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      color: #666;
+      padding: 0.7rem 0;
+    }
+  }
+}

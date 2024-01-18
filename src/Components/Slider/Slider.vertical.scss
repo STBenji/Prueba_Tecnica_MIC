@@ -1,0 +1,29 @@
+.slider-container {
+  display: none;
+}
+
+@media screen and (min-width: 910px) {
+  .slider-container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .slider-wrapper {
+    display: flex;
+    gap: 8px;
+    flex-direction: column;
+    align-items: center;
+    transition: transform 0.5s ease-in-out;
+  }
+
+  .slider-image {
+    width: 100%;
+    background: red;
+  }
+}
