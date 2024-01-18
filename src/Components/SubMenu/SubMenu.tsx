@@ -30,7 +30,7 @@ export default function SubMenu({ onClose, className }: IMenu) {
             Mi cuenta
           </li>
           <li>
-            <img src="./favorito.png" alt="icono de corazón" />
+            <img src="./favorito.svg" alt="icono de corazón" />
             Mis favoritos
           </li>
           <li>

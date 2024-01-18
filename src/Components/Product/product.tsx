@@ -4,6 +4,9 @@ import './Product.scss'
 import { IProduct } from '../../Interfaces/Interfaces'
 import SliderVertical from '../Slider/Slider.vertical'
 import Gallery from '../Gallery/Gallery'
+import Shipment from '../Shipment/Shipment'
+import Form from '../Form/Form'
+import Footer from '../Footer/Footer'
 
 export default function Product({ data }: IProduct) {
   const { images } = data.product
@@ -24,6 +27,18 @@ export default function Product({ data }: IProduct) {
       <article className="slider">
         <Gallery data={products} />
       </article>
+      <section>
+        <Shipment />
+      </section>
+      <section className="formProduct">
+        <Form />
+      </section>
+      <section className="methodPay">
+        <img src="https://www.moviesshop.co/arquivos/medios-de-pago-mic-footer.png" alt="" />
+      </section>
+      <section className='footerProduct'>
+        <Footer />
+      </section>
     </main>
   )
 }

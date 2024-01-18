@@ -1,0 +1,33 @@
+.shipmentContainer {
+  overflow: auto;
+  padding: 1rem;
+  margin-top: 1rem;
+
+  & > ul {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+
+    & > li {
+      display: flex;
+      gap: 1rem;
+      align-items: center;
+      white-space: nowrap;
+
+      & > div {
+        width: 0.5rem;
+        height: 0.5rem;
+        border-radius: 100%;
+        background: red;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 910px) {
+  .shipmentContainer {
+    & > ul {
+      justify-content: center;
+    }
+  }
+}

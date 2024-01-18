@@ -1,0 +1,113 @@
+// Form.scss
+.formContainer {
+  background-color: #131e29;
+  color: white;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+
+  & > header {
+    text-align: center;
+    font-size: 15px;
+
+    & > h1 {
+      text-transform: uppercase;
+      letter-spacing: 0.2rem;
+      font-size: 18px;
+      padding: 1rem 0;
+    }
+  }
+
+  & > section {
+    & > form {
+      padding: 1rem;
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+
+      & > .inputsForm {
+        & > label {
+          font-weight: 200;
+          display: flex;
+          flex-direction: column;
+          font-size: 13px;
+
+          margin-top: 2rem;
+          & > input {
+            padding: 0.6rem;
+            background: transparent;
+            outline: none;
+            border: none;
+            border-bottom: 1px solid white;
+            color: white;
+          }
+        }
+      }
+
+      & > .checkboxGroup {
+        display: flex;
+        gap: 1rem;
+        margin-bottom: 1rem;
+
+        & > label {
+          display: flex;
+          align-items: center;
+        }
+      }
+
+      & > .termsLabel {
+        font-weight: 200;
+        font-size: 13px;
+        display: flex;
+        flex-direction: row;
+        gap: 1rem;
+
+        & > span {
+          font-weight: 500;
+          text-decoration: underline;
+        }
+      }
+
+      & > .sendForm {
+        display: flex;
+
+        & > button {
+          border: none;
+          background: red;
+          outline: none;
+          color: white;
+          padding: 1rem;
+          text-transform: uppercase;
+          font-size: 15px;
+          letter-spacing: 0.3rem;
+          font-weight: 600;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 910px) {
+  .formContainer {
+    width: 70%;
+
+    & > header {
+      & > h1 {
+        font-size: 28px;
+      }
+    }
+
+    & > section {
+      & > form {
+        & > .inputsForm {
+          display: flex;
+          gap: 3rem;
+        }
+
+        & > .sendForm {
+          justify-content: center;
+        }
+      }
+    }
+  }
+}

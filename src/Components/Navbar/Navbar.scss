@@ -36,7 +36,6 @@ $navbar-bg: #131e29;
 
     & .navbarCenter {
       grid-area: nCenter;
-      // background: red;
       display: none;
     }
 
@@ -70,7 +69,6 @@ $navbar-bg: #131e29;
   display: none;
 }
 
-
 /* media queries */
 
 @media screen and (min-width: 910px) {
@@ -100,6 +98,21 @@ $navbar-bg: #131e29;
       & > .navbarCenter {
         display: flex;
         justify-content: space-evenly;
+
+        & > li {
+          & > input {
+            border: none;
+            border-bottom: 1px solid #fff;
+            background: transparent;
+            outline: none;
+            color: #fff;
+            padding: 0.3rem;
+          }
+
+          & > input::placeholder {
+            color: #fff;
+          }
+        }
 
         & > .menuHover {
           position: relative;
@@ -147,7 +160,7 @@ $navbar-bg: #131e29;
               text-transform: none;
               font-weight: 300;
               font-size: 13px;
-              letter-spacing: .1rem;
+              letter-spacing: 0.1rem;
               overflow: hidden;
               position: relative;
 

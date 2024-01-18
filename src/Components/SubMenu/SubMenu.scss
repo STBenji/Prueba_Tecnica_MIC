@@ -2,8 +2,8 @@
   width: 15%;
   max-width: 400px;
   min-width: 310px;
+  height: 100vh;
   position: fixed;
-  // left: -400px;
   padding: 1rem;
   background: #fff;
   color: #000;
@@ -11,12 +11,10 @@
   transition: left 1s ease;
 
   &.expanded {
-    // left: 0;
     width: 85%;
   }
 
   &.closed {
-    // left: 300px;
     width: 15%;
   }
 

@@ -68,7 +68,7 @@ export default function Navbar() {
               <span>Ofertas</span> de temporada
             </li>
             <li>
-              <input type="search" placeholder="Encuentra tu preferido" />
+              <input type="text" placeholder="Encuentra tu preferido" />
               <IconSearch />
             </li>
           </section>

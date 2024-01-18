@@ -1,3 +1,4 @@
+import Copyright from '../Components/Copyright/Copyright'
 import Navbar from '../Components/Navbar/Navbar'
 import Product from '../Components/Product/product'
 
@@ -8,6 +9,7 @@ export default function ProductPage() {
     <main>
       <Navbar />
       <Product data={Data} />
+      <Copyright />
     </main>
   )
 }

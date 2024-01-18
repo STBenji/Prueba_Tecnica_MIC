@@ -21,7 +21,7 @@ export default function Gallery({ data }: IData) {
         Seleccionados para <strong>TI</strong>
       </section>
       <CardProduct data={forYou} />
-      <section className='sendInfo'>
+      <section className='sendInfo  '>
         <SendInformation />
       </section>
     </section>

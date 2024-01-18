@@ -55,20 +55,68 @@ export const IconArrowRigth = () => {
 
 /* ICONO DE FLECHA ARRIBA */
 export const IconArrowTop = () => {
-  return <img src="./arrowAR.svg" alt="icono de flecha derecha" />
+  return <img src="./arrowAR.svg" alt="icono de flecha arriba" />
 }
 
 /* ICONO DE FLECHA ABAJO */
 export const IconArrowBottom = () => {
-  return <img src="./arrowA.svg" alt="icono de flecha derecha" />
-}
-
-/* ICONO DE FLECHA ABAJO */
-export const IconCar = () => {
-  return <img src="./camion.svg" alt="icono de flecha derecha" />
+  return <img src="./arrowA.svg" alt="icono de flecha abajo" />
 }
 
 /* ICONO DE FLECHA ABAJO */
 export const IconClock = () => {
   return <img src="./cronograma.svg" alt="icono de flecha derecha" />
+}
+
+/* ICONO DE CAMION  */
+export const IconCar = () => {
+  return <img src="./camion.svg" alt="icono de camion" />
+}
+
+/* ICONO DE PAGO SEGURO  */
+export const IconPay = () => {
+  return <img src="./paySecure.svg" alt="icono de pago seguro" />
+}
+
+/* ICONO DE  ATENCION*/
+export const IconAtention = () => {
+  return <img src="./atention.svg" alt="icono de atencion" />
+}
+
+/* ICONO DE DEVOLUCION */
+export const IconDevolution = () => {
+  return <img src="./devolution.svg" alt="icono de devolution" />
+}
+
+/* ICONO DE SEGUIMIENTO */
+export const IconFollowUp = () => {
+  return <img src="./followUp.svg" alt="icono de seguimiento" />
+}
+
+/* ICONO DE FACEBOOK */
+export const IconFacebook = () => {
+  return (
+    <a href="https://www.facebook.com/movieslahistoriacontinua/">
+      <img src="./facebook.svg" alt="icono de facebook" />
+    </a>
+  )
+}
+
+/* ICONO DE INSTRAGRAM */
+export const IconInstagram = () => {
+  return (
+    <a href="https://www.instagram.com/moviesshop/">
+      <img src="./instagram.svg" alt="icono de instagram" />
+    </a>
+  )
+}
+
+/* ICONO DE TELEFONO */
+export const IconPhone = () => {
+  return <img src="./phone.svg" alt="icono de telefono" />
+}
+
+/* ICONO DE MAIL */
+export const IconMail = () => {
+  return <img src="./mail.svg" alt="icono de mail" />
 }
