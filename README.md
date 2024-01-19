@@ -6,7 +6,7 @@ Sigue estos pasos para instalar y ejecutar el clon en tu entorno local:
 
 ```js
 git clone https://github.com/STBenji/Prueba_Tecnica_MIC.git
-cd clon-proyecto
+cd Prueba_Tecnica_MIC
 npm install
 ```
 Inicia la aplicación:
