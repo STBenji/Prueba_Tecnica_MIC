@@ -39,7 +39,7 @@ export default function Acordeon({ data }: IDataAcordeon) {
         </header>
         {activeIndex === 1 && (
           <div>
-            <strong>Pais:</strong> <p>{specifications.country}</p>
+            <strong>País:</strong> <p>{specifications.country}</p>
             <strong>Registro Sic:</strong> <p>{specifications.sic}</p>
             <strong>Especificaciones:</strong> <p>{specifications.specification}</p>
             <strong>Color:</strong> <p>{specifications.color}</p>

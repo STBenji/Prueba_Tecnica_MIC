@@ -1,0 +1,3 @@
+¡Hola! El clon ha sido finalizado con éxito, aunque no fue una reproducción exacta al 100% del original. Durante el proceso, me encontré con algunos errores inesperados que me obligaron a realizar ciertos ajustes en los elementos. Lamentablemente, no pude incorporar todas las animaciones nativas como tenía previsto, ya que el tiempo se convirtió en un factor limitante.
+
+Esta experiencia representó una prueba técnica bastante exigente, desafiante desde mi perspectiva. A pesar de los obstáculos, estoy satisfecho con el resultado alcanzado, y considero que he aprendido mucho en el proceso. Agradezco la comprensión ante las modificaciones realizadas. ¡Gracias por la paciencia durante este proyecto!
