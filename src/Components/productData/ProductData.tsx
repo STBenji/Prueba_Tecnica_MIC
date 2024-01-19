@@ -1,18 +1,67 @@
-import { useState } from 'react'
+import { FormEvent, useContext, useState } from 'react'
 import './ProductData.scss'
 import { departamentosColombia } from '../../DataStatic/DataStatic'
 import { IconHeart } from '../Icons/Icons'
 import Acordeon from '../Acordeon/Acordeon'
-import { IDataProduct } from '../../Interfaces/Interfaces'
+import { IDataProduct, IShopingCartItems } from '../../Interfaces/Interfaces'
+import { CartContext } from '../../context'
+import { saveLocalStorage } from '../../utils/saveLocalStorage'
+import { getLocalStorageItem } from '../../utils/getLocalStorageItem'
 
 export default function ProductData({ dataProduct }: IDataProduct) {
-  const { title, brand, referenceID, priceNow, priceBefore, sizes } = dataProduct.product
+  const cartContextState = useContext(CartContext)
+  const { title, brand, referenceID, priceNow, priceBefore, sizes, images, id } = dataProduct.product
 
-  const [selectedSize, setSelectedSize] = useState<number | null>(sizes.findIndex((item) => item.size === 'S'))
+  const [selectedSize, setSelectedSize] = useState<number>(0)
+
+  const sizesNumbers: Record<number, string> = {
+    0: 'S',
+    1: 'M',
+    2: 'L',
+    3: 'XL',
+  }
 
   const [count, setCount] = useState(0)
 
   const totalAvailableUnits = sizes.reduce((total, item) => total + item.availableUnit, 0)
+
+  const handleSubmit = (e: FormEvent<HTMLFormElement> | undefined) => {
+    e?.preventDefault()
+    if (count === 0) return
+    const cartPreInformation: IShopingCartItems = {
+      id: Number(id),
+      brand,
+      name: title,
+      price: priceNow,
+      quantity: count,
+      size: sizesNumbers[selectedSize] || 'n',
+      image: images[0]?.urlImage
+    }
+    const items = getLocalStorageItem<IShopingCartItems>('cartItems')
+    if (items.length !== 0) {
+      const updatedItems = items.map((item) => {
+        if (item.id === cartPreInformation.id && item.size === cartPreInformation.size) {
+          return { 
+            ...item,
+            quantity: item.quantity + cartPreInformation.quantity,
+          }
+        }
+        return item
+      })
+      const searchSize = updatedItems.find(item => item.id === cartPreInformation.id && item.size === cartPreInformation.size)
+      if (!searchSize) {
+        updatedItems.push(cartPreInformation);
+      }
+      saveLocalStorage<IShopingCartItems>('cartItems', updatedItems)
+    } else {
+      saveLocalStorage<IShopingCartItems>('cartItems', [cartPreInformation])
+    }
+
+
+    cartContextState?.setCartState(() => ({
+      items: [cartPreInformation]
+    }))
+  }
 
   return (
     <main className="containerDataProduct">
@@ -42,18 +91,20 @@ export default function ProductData({ dataProduct }: IDataProduct) {
         </div>
 
         <section className="addBag">
-          <div>
-            <button onClick={() => setCount(count - 1)} disabled={count === 0}>
-              -
-            </button>
-            <h1>{count}</h1>
-            <button onClick={() => setCount(count + 1)} disabled={count === (selectedSize !== null ? sizes[selectedSize].availableUnit : totalAvailableUnits)}>
-              +
-            </button>
-          </div>
-          <div>
-            <button>AGREGAR A MI BOLSA</button>
-          </div>
+          <form action="" onSubmit={handleSubmit}>
+            <div>
+              <button type='button' onClick={() => setCount(count - 1)} disabled={count === 0}>
+                -
+              </button>
+              <h1>{count}</h1>
+              <button type='button' onClick={() => setCount(count + 1)} disabled={count === (selectedSize !== null ? sizes[selectedSize].availableUnit : totalAvailableUnits)}>
+                +
+              </button>
+            </div>
+            <div>
+              <button type='submit'>AGREGAR A MI BOLSA</button>
+            </div>
+          </form>
         </section>
       </header>
 

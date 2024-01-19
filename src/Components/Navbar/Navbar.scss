@@ -1,12 +1,18 @@
 $navbar-bg: #131e29;
 
+.relative {
+  position: relative;
+}
+
 .navbar {
   background: $navbar-bg;
   color: #fff;
-  width: 98.9dvw;
-  height: 9dvh;
+  width: 100vw;
+  min-height: 9dvh;
   display: grid;
   place-content: center;
+  position: fixed;
+  z-index: 999999;
 
   & > ul {
     list-style: none;
@@ -55,6 +61,26 @@ $navbar-bg: #131e29;
 
       & li {
         display: none;
+      }
+
+      & li.cartIcon > button {
+        position: relative;
+
+        & > span {
+          right: -5px;
+          bottom: -3px;
+          width: 14px;
+          height: 14px;
+          display: block;
+          position: absolute;
+          padding: 0;
+          color: #131e29;
+          font-size: 11px;
+          line-height: 14px;
+          background-color: #fff;
+          border: .729px solid #fff;
+          border-radius: 50%;
+        }
       }
 
       & > li:nth-child(2),

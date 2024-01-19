@@ -1,10 +1,13 @@
 import './App.scss'
 import ProductPage from './Pages/Product.page'
+import { CartProvider } from './context'
 
 function App() {
   return (
     <>
-      <ProductPage />
+      <CartProvider>
+        <ProductPage />
+      </CartProvider>
     </>
   )
 }

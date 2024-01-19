@@ -1,5 +1,5 @@
 .containerDataProduct {
-  padding: 1rem;
+  padding: 1rem 0;
 
   & .headerDataProduct {
     & > span {
@@ -61,7 +61,7 @@
       }
     }
 
-    & > .addBag {
+    & > .addBag > form {
       margin-top: 4rem;
       display: flex;
 

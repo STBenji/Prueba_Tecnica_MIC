@@ -1,3 +1,5 @@
+import { ReactNode } from "react"
+
 export interface IProduct {
   data: {
     product: {
@@ -32,6 +34,7 @@ export interface IProduct {
 export interface IDataProduct {
   dataProduct: {
     product: {
+      id?: string
       title: string
       brand: string
       referenceID: string
@@ -48,6 +51,7 @@ export interface IDataProduct {
       composition: string
       care: string
       explore: string
+      images: Array<{idImage: string, urlImage: string}>
     }
   }
 }
@@ -83,6 +87,29 @@ export interface IMenu {
   className?: string
 }
 
+export interface IShopingCartProps {
+  closeFunction: () => void
+}
+
+export interface IShopingCartItems {
+  id: number
+  name: string
+  brand: string
+  price: number
+  quantity: number
+  size: string
+  image: string
+}
+
+export interface ICartContext {
+  items: IShopingCartItems[] | null
+}
+
+export interface ICartContextProviderProps {
+  children: ReactNode
+}
+
+export type TLocalStorageData<T> = T[]
 export interface Size {
   size: string
 }

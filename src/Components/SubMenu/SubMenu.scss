@@ -8,6 +8,7 @@
   background: #fff;
   color: #000;
   overflow: hidden;
+  z-index: 99999;
   transition: left 1s ease;
 
   &.expanded {

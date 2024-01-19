@@ -1,18 +1,45 @@
+import { CartContext } from '../../context'
+import { getLocalStorageItem } from '../../utils/getLocalStorageItem'
 import { IconBag, IconFavorite, IconLocation, IconMenu, IconMessage, IconOffers, IconSearch, IconUser } from '../Icons/Icons'
+import ShopingCart from '../ShopingCart/ShopingCart'
 import SubMenu from '../SubMenu/SubMenu'
 import './Navbar.scss'
-import { useState } from 'react'
+import { useContext, useEffect, useState } from 'react'
 
 export default function Navbar() {
+  const cart = useContext(CartContext)
+  const cartItems = cart?.cartState.items
+
+  
+
+  useEffect(() => {
+    const items = getLocalStorageItem('cartItems')
+    if (cartItems) setCartItemsNumber(items.length)
+  }, [cartItems]);
+
+  useEffect(() => {
+    const items = getLocalStorageItem('cartItems')
+    setCartItemsNumber(items.length)
+  }, [])
+
+  const [cartIsOpen, setCartIsOpen] = useState(false)
   const [isOpen, setIsOpen] = useState(false)
+  const [cartItemsNumber, setCartItemsNumber] = useState(0);
   const closeMenu = () => {
     setIsOpen(false)
+  }
+    
+  const handleShopingCart = () => {
+    setCartIsOpen(!cartIsOpen)
+    document.body.style.overflow = !cartIsOpen ? 'hidden' : '';
   }
 
   return (
     <>
       {isOpen && <SubMenu onClose={closeMenu} className={`${isOpen ? 'expanded' : 'closed'}`} />}
       <nav className="navbar">
+        {cartIsOpen && <ShopingCart closeFunction={handleShopingCart}/>}
+
         <ul>
           <section className="navbarStart">
             <section>
@@ -85,8 +112,13 @@ export default function Navbar() {
             <li>
               <IconLocation />
             </li>
-            <li>
-              <IconBag />
+            <li onClick={handleShopingCart} className='cartIcon'>
+              <button type='button'>
+                <IconBag />
+                {cartItemsNumber > 0 && (
+                  <span>{cartItemsNumber}</span>
+                )}
+              </button>
             </li>
           </section>
         </ul>
